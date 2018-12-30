@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Ts4IbAkeSVjXfOtuNOfcDC09OPlUQ8+5Bcdpe/6HRRKFRNr7UZgFYjret5fCcfzkG7BO67tqwSVwfqNrMZ3eqxktnk3b4UFbV9ooWQcCoH8An9sTVzutgi3PKYJDlQ3iJJbwvSf3dXwRIcsX5/xSPKYYgp/XK5MuygBIeB6W1+eMuGR21pMMEp1opdnfvQCHl1ZyAvLW8ERqI9qANokmy48b9q2+tcm55BmvEOb4En8TFc6R0PQNyHbOM2YVpDsMGdcKBLoy8gM+C0KBcnerjKGXQDsvkUpovGxrIboygwTx9Ne+ghfLYZ1HNjhDBSZInX/tdgjqmLLW/cNnk6czhevoe4Mk3eHi6OqHoWT8wbhUvsufqO+kDph+lKezEgYYOTI9BhDif4Si22cTHRt+fuB8fxuJDo5NF/kMh9EBEcKHy6/H0joxFDtG7de4i8tbjhGMc51uYrvzUOPbCS6BKArBSA+wPc3+X5DqOpFNQtgT+OF+0htRN86JBf6IyP267kFBSQCak89QWq5mVcxaKpxgjkhtr6AQZtY7gK6ST9z8gjBWMvXnUI1ouJ/WJJ03MWeWWRxbc4/Ph9KJOvX33CF789/L4jFUCeSODUItu9hGY5FcvbRDzshqcmQNU1rKgXtl6m7ELiiGgRUR449A/Z34eP1zKWW8KA10KvJN9ek=
+  app: hidden-reaches-56569
+  on:
+    repo: melfers/node-shopping-list-integration-tests
